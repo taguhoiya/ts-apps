@@ -1,6 +1,6 @@
 type MyObj = {
-  bar: string
-  hoge?: string
+  bar: string;
+  hoge?: string;
   readonly foo: string;
 };
 

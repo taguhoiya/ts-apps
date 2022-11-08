@@ -4,4 +4,3 @@ function fn(args: { message?: string }) {
 }
 
 console.log(fn({}));
-

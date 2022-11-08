@@ -22,7 +22,7 @@ type Fish = {
 
 const isBird = (test: Fish | Bird): test is Bird => {
   return (test as Bird).fly() !== undefined;
-}
+};
 
 const example2 = (fishOrBird: Fish | Bird) => {
   if (isBird(fishOrBird)) {
